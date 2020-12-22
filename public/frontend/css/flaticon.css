@@ -1,0 +1,37 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 04/09/2017 15:24
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-style: normal;
+}
+
+.flaticon-hair-salon-situation:before { content: "\f100"; }
+.flaticon-brush:before { content: "\f101"; }
+.flaticon-shaving-brush:before { content: "\f102"; }
+.flaticon-barber-chair-1:before { content: "\f103"; }
+.flaticon-barber-chair:before { content: "\f104"; }
+.flaticon-shaver:before { content: "\f105"; }
+.flaticon-razor:before { content: "\f106"; }
+.flaticon-scissors:before { content: "\f107"; }
